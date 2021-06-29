@@ -85,6 +85,7 @@ footer {
     text-align: center;
     letter-spacing: 2px;
     background-color: rgb(25, 144, 255);
+    padding: 1% 0%;
 }
 
 @media screen and (max-width:415px) {
