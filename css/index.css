@@ -67,6 +67,31 @@
     line-height: 150%;
 }
 
+@media screen and (max-width:1024px) {
+    .container {
+        flex-direction: column;
+    }
+    .left,
+    .right {
+        width: 100%;
+    }
+    .left {
+        order: 1;
+    }
+    .right {
+        order: 2;
+    }
+    .containertxt {
+        padding: 2% 0%;
+    }
+    .banner {
+        display: none;
+    }
+    .mobilebanner {
+        display: block;
+    }
+}
+
 @media screen and (max-width:415px) {
     .container {
         flex-direction: column;
